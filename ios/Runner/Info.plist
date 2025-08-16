@@ -5,7 +5,7 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>$(DEVELOPMENT_LANGUAGE)</string>
 	<key>CFBundleDisplayName</key>
-	<string>Running Creature Go</string>
+	<string>러닝크리쳐 go</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -13,7 +13,7 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>running_creature_go</string>
+	<string>러닝크리쳐 go</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -45,5 +45,17 @@
 	<true/>
 	<key>UIApplicationSupportsIndirectInputEvents</key>
 	<true/>
+	
+	<!-- 위치 권한 설명 -->
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>러닝 경로를 기록하고 크리쳐를 생성하기 위해 위치 정보가 필요합니다.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>러닝 경로를 기록하고 크리쳐를 생성하기 위해 위치 정보가 필요합니다.</string>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>러닝 경로를 기록하고 크리쳐를 생성하기 위해 위치 정보가 필요합니다.</string>
+	
+	<!-- 마이크 권한 설명 (음성 안내용) -->
+	<key>NSMicrophoneUsageDescription</key>
+	<string>음성 안내를 위해 마이크 권한이 필요합니다.</string>
 </dict>
 </plist>
